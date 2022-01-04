@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Kosai Limited</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../index.html</link>
+	<description>Just read a Blog</description>
+	<lastBuildDate>Tue, 04 Jan 2022 09:34:05 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.2</generator>
+
+<image>
+	<url>./../wp-content/uploads/2022/01/cropped-cropped-sample-5-1-32x32.jpg</url>
+	<title>Kosai Limited</title>
+	<link>./../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Vector</title>
+		<link>./../2022/01/04/vector/index.html</link>
+					<comments>./../2022/01/04/vector/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[mdrahat]]></dc:creator>
+		<pubDate>Tue, 04 Jan 2022 09:34:04 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">./../index.html?p=92</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+					<wfw:commentRss>./../2022/01/04/vector/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Stack</title>
+		<link>./../2022/01/04/stack/index.html</link>
+					<comments>./../2022/01/04/stack/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[mdrahat]]></dc:creator>
+		<pubDate>Tue, 04 Jan 2022 09:33:48 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">./../index.html?p=91</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+					<wfw:commentRss>./../2022/01/04/stack/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Queue</title>
+		<link>./../2022/01/04/queue/index.html</link>
+					<comments>./../2022/01/04/queue/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[mdrahat]]></dc:creator>
+		<pubDate>Tue, 04 Jan 2022 09:33:41 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">./../index.html?p=90</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+					<wfw:commentRss>./../2022/01/04/queue/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Map</title>
+		<link>./../2022/01/04/map/index.html</link>
+					<comments>./../2022/01/04/map/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[mdrahat]]></dc:creator>
+		<pubDate>Tue, 04 Jan 2022 09:33:31 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">./../index.html?p=89</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+					<wfw:commentRss>./../2022/01/04/map/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>List</title>
+		<link>./../2022/01/04/list/index.html</link>
+					<comments>./../2022/01/04/list/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[mdrahat]]></dc:creator>
+		<pubDate>Tue, 04 Jan 2022 09:33:20 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">./../index.html?p=88</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+					<wfw:commentRss>./../2022/01/04/list/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Graph</title>
+		<link>./../2022/01/04/graph/index.html</link>
+					<comments>./../2022/01/04/graph/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[mdrahat]]></dc:creator>
+		<pubDate>Tue, 04 Jan 2022 09:33:11 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">./../index.html?p=87</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+					<wfw:commentRss>./../2022/01/04/graph/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Tree</title>
+		<link>./../2022/01/04/tree/index.html</link>
+					<comments>./../2022/01/04/tree/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[mdrahat]]></dc:creator>
+		<pubDate>Tue, 04 Jan 2022 09:33:03 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">./../index.html?p=86</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+					<wfw:commentRss>./../2022/01/04/tree/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Linked List</title>
+		<link>./../2022/01/04/linked-list/index.html</link>
+					<comments>./../2022/01/04/linked-list/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[mdrahat]]></dc:creator>
+		<pubDate>Tue, 04 Jan 2022 09:32:51 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">./../index.html?p=85</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+					<wfw:commentRss>./../2022/01/04/linked-list/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Array</title>
+		<link>./../2022/01/04/array/index.html</link>
+					<comments>./../2022/01/04/array/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[mdrahat]]></dc:creator>
+		<pubDate>Tue, 04 Jan 2022 09:24:45 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">./../index.html?p=82</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+					<wfw:commentRss>./../2022/01/04/array/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Parse Tree</title>
+		<link>./../2022/01/04/parse-tree/index.html</link>
+					<comments>./../2022/01/04/parse-tree/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[mdrahat]]></dc:creator>
+		<pubDate>Tue, 04 Jan 2022 09:22:42 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">./../index.html?p=80</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+					<wfw:commentRss>./../2022/01/04/parse-tree/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
