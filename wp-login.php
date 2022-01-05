@@ -56,7 +56,7 @@ wp_attempt_focus();
 if ( typeof wpOnload === 'function' ) { wpOnload() }		</script>
 				<p id="backtoblog">
 			<a href="./index.html">&larr; Go to Kosai Limited</a>		</p>
-			</div>
+		<div class="privacy-policy-page-link"><a class="privacy-policy-link" href="./privacy-policy/index.html">Privacy Policy</a></div>	</div>
 	<script type="text/javascript" src="./wp-includes/js/jquery/jquery.min.js?ver=3.6.0" id="jquery-core-js"></script>
 <script type="text/javascript" src="./wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2" id="jquery-migrate-js"></script>
 <script type="text/javascript" id="zxcvbn-async-js-extra">
@@ -94,7 +94,7 @@ var _wpUtilSettings = {"ajax":{"url":"\/kosailimited\/wp-admin\/admin-ajax.php"}
 <script type="text/javascript" src="./wp-includes/js/wp-util.min.js?ver=5.8.2" id="wp-util-js"></script>
 <script type="text/javascript" id="user-profile-js-extra">
 /*  */
-var userProfileL10n = {"user_id":"0","nonce":"d781b9c0cd"};
+var userProfileL10n = {"user_id":"0","nonce":"f55ca43bb5"};
 /*  */
 </script>
 <script type="text/javascript" id="user-profile-js-translations">
