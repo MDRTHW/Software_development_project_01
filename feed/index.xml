@@ -12,13 +12,13 @@
 	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
 	<link>./../index.html</link>
 	<description>Just read a Blog</description>
-	<lastBuildDate>Wed, 05 Jan 2022 11:15:12 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 06 Jan 2022 09:32:28 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.8.2</generator>
+	<generator>https://wordpress.org/?v=5.8.3</generator>
 
 <image>
 	<url>./../wp-content/uploads/2022/01/cropped-cropped-sample-5-1-32x32.jpg</url>
@@ -28,6 +28,25 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Backtracking</title>
+		<link>./../2022/01/06/backtracking/index.html</link>
+					<comments>./../2022/01/06/backtracking/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[mdrahat]]></dc:creator>
+		<pubDate>Thu, 06 Jan 2022 06:59:00 +0000</pubDate>
+				<category><![CDATA[Algorithm]]></category>
+		<category><![CDATA[Data structure]]></category>
+		<guid isPermaLink="false">./../index.html?p=200</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+					<wfw:commentRss>./../2022/01/06/backtracking/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>Binary Search</title>
 		<link>./../2022/01/05/binary-search/index.html</link>
 					<comments>./../2022/01/05/binary-search/index.html#respond</comments>
@@ -344,11 +363,132 @@
 		
 		<dc:creator><![CDATA[mdrahat]]></dc:creator>
 		<pubDate>Tue, 04 Jan 2022 11:57:52 +0000</pubDate>
-				<category><![CDATA[Uncategorized]]></category>
+				<category><![CDATA[Data structure]]></category>
 		<guid isPermaLink="false">./../index.html?p=130</guid>
 
-					<description><![CDATA[]]></description>
-										<content:encoded><![CDATA[]]></content:encoded>
+					<description><![CDATA[What is DFS? DFS or depth first search is a traversal method for graph or tree which uses backtracking. It involves exhaustive searches of all the nodes by going ahead, if possible, else by backtracking. Backtracking is a recursive method . It starts visiting node from a root node. Then according to adjacency nodes the...]]></description>
+										<content:encoded><![CDATA[
+<h3 class="has-black-color has-light-green-cyan-background-color has-text-color has-background">What is DFS?</h3>
+
+
+
+<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p>DFS or depth first search is a traversal method for graph or tree which uses <a style="text-decoration:none" rel="noreferrer noopener" href="./../2022/01/06/backtracking/index.html" target="_blank"><span class="has-inline-color has-vivid-cyan-blue-color">backtracking</span></a>. It involves exhaustive searches of all the nodes by going ahead, if possible, else by backtracking. Backtracking is a recursive method . It starts visiting node from a root node. Then according to adjacency nodes the DFS goes deep as it can before backtracking . And marks the visited node.</p>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3 class="has-black-color has-light-green-cyan-background-color has-text-color has-background">Example</h3>
+
+
+
+<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<figure class="wp-block-image size-full is-resized"><img loading="lazy" src="./../wp-content/uploads/2022/01/dfs-example.png" alt="" class="wp-image-207" width="727" height="501" srcset="./../wp-content/uploads/2022/01/dfs-example.png 776w, ./../wp-content/uploads/2022/01/dfs-example-300x206.png 300w, ./../wp-content/uploads/2022/01/dfs-example-768x528.png 768w" sizes="(max-width: 727px) 100vw, 727px" /><figcaption>DFS example</figcaption></figure>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3 class="has-black-color has-light-green-cyan-background-color has-text-color has-background">Algorithm</h3>
+
+
+
+<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p>Create a recursive function that takes the index of the node and a visited array.</p>
+
+
+
+<ol><li>Mark the current node as visited and print the node.</li><li>Traverse all the adjacent and unmarked nodes and call the recursive function with the index of the adjacent node.</li></ol>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3 class="has-black-color has-light-green-cyan-background-color has-text-color has-background">Pseudocode </h3>
+
+
+
+<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<pre class="wp-block-code"><code><span class="has-inline-color has-vivid-cyan-blue-color"> DFS-iterative (G, s):                                   //Where G is graph and s is source vertex
+      let S be stack
+      S.push( s )            //Inserting s in stack 
+      mark s as visited.
+      while ( S is not empty):
+          //Pop a vertex from stack to visit next
+          v  =  S.top( )
+         S.pop( )
+         //Push all the neighbours of v in stack that are not visited   
+        for all neighbours w of v in Graph G:
+            if w is not visited :
+                     S.push( w )         
+                    mark w as visited
+
+
+    DFS-recursive(G, s):
+        mark s as visited
+        for all neighbours w of s in Graph G:
+            if w is not visited:
+                DFS-recursive(G, w)</span></code></pre>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3 class="has-black-color has-light-green-cyan-background-color has-text-color has-background">Complexity</h3>
+
+
+
+<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<ul><li><strong>Time complexity:&nbsp;</strong>O(V + E), where V is the number of vertices and E is the number of edges in the graph.</li><li><strong>Space Complexity:</strong>&nbsp;O(V), since an extra visited array of size V is required.</li></ul>
+
+
+
+<div style="height:35px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3 class="has-black-color has-light-green-cyan-background-color has-text-color has-background">Application</h3>
+
+
+
+<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<ul><li>For finding the path</li><li>To test if the graph is bipartite</li><li>For finding the strongly connected components of a graph</li><li>For detecting cycles in a graph</li></ul>
+
+
+
+<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p></p>
+]]></content:encoded>
 					
 					<wfw:commentRss>./../2022/01/04/depth-first-search-dfs/feed/index.html</wfw:commentRss>
 			<slash:comments>0</slash:comments>
@@ -895,11 +1035,142 @@ end BubbleSort
 		
 		<dc:creator><![CDATA[mdrahat]]></dc:creator>
 		<pubDate>Tue, 04 Jan 2022 09:34:04 +0000</pubDate>
-				<category><![CDATA[Uncategorized]]></category>
+				<category><![CDATA[Data structure]]></category>
+		<category><![CDATA[STL]]></category>
 		<guid isPermaLink="false">./../index.html?p=92</guid>
 
-					<description><![CDATA[]]></description>
-										<content:encoded><![CDATA[]]></content:encoded>
+					<description><![CDATA[Introduction An array is a kind of data structure consisting of a collection of elements or data . And it is important to declare of a fixed size of the array every time we declare it . So, it becomes a problem . Hence vector a sequence container that can change size according to the...]]></description>
+										<content:encoded><![CDATA[
+<h3 class="has-white-color has-vivid-purple-background-color has-text-color has-background">Introduction</h3>
+
+
+
+<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p>An array is a kind of data structure consisting of a  collection of elements or data . And it is important to declare of a fixed size of the array every time we declare it . So, it becomes a problem . Hence vector a sequence container that can change size according to the data size . This container is a object that contains the data in a dynamic array . So, it has the ability to resize itself. In array after inserting or deleting it needs to be reallocated or the data reallocates their position. So, you can avoid the problem of fixing a size for array. Vector uses iteration to traverse the elements.</p>
+
+
+
+<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3 class="has-white-color has-vivid-purple-background-color has-text-color has-background">Visualization</h3>
+
+
+
+<div style="height:10px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p>Syntax: <span class="has-inline-color has-vivid-cyan-blue-color">vector&lt;data_type> variable_name (size_of_the_vector);</span></p>
+
+
+
+<p>vector&lt;double> money(7);</p>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" width="595" height="166" src="./../wp-content/uploads/2022/01/vector-visual.png" alt="" class="wp-image-211" srcset="./../wp-content/uploads/2022/01/vector-visual.png 595w, ./../wp-content/uploads/2022/01/vector-visual-300x84.png 300w" sizes="(max-width: 595px) 100vw, 595px" /><figcaption>Vector visualzation</figcaption></figure>
+
+
+
+<div style="height:35px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3 class="has-white-color has-vivid-purple-background-color has-text-color has-background">Internal mechanism</h3>
+
+
+
+<div style="height:10px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p>When the size is 0 , capacity is 0</p>
+
+
+
+<p>&#8221;           &#8221;   &#8221;      &#8221; 1,        &#8221;        &#8221;  1 &#8211;> doubled</p>
+
+
+
+<p>                            [after inserting one element size becomes 1 which is greater than capacity, so capacity is doubled]</p>
+
+
+
+<p> &#8221;           &#8221;   &#8221;      &#8221; 2,        &#8221;        &#8221;  2 &#8211;> doubled </p>
+
+
+
+<p> &#8221;           &#8221;   &#8221;      &#8221; 3,        &#8221;        &#8221;  4 &#8211;> doubled </p>
+
+
+
+<p> &#8221;           &#8221;   &#8221;      &#8221; 4,        &#8221;        &#8221;  4 &#8211;> No change</p>
+
+
+
+<p>                            [now size=capacity]</p>
+
+
+
+<div style="height:35px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3 class="has-white-color has-vivid-purple-background-color has-text-color has-background">Drawbacks</h3>
+
+
+
+<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p>Vector sometimes over allocates memory, which sometime could be very bad in terms of performances. When ever capacity of vector increases it copy all element from previous vector to new vector.</p>
+
+
+
+<div style="height:35px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3 class="has-white-color has-vivid-purple-background-color has-text-color has-background">Some useful methods for vector</h3>
+
+
+
+<h4>Iterators</h4>
+
+
+
+<p class="has-black-color has-text-color">begin() , end() , rbegin() , rend() , cbegin() , cend() , crbegin() , crend() .</p>
+
+
+
+<h4>Capacity</h4>
+
+
+
+<p>size() , max_size() , capacity() , resize() , empty() , shrink_to_fit() , reserve() .</p>
+
+
+
+<h4>Element access</h4>
+
+
+
+<p>front() , back() .</p>
+
+
+
+<h4>Modifiers</h4>
+
+
+
+<p>assign() , push_back() , pop_back() , insert() , swap() , clear() , emplace() , emplace_back() .</p>
+]]></content:encoded>
 					
 					<wfw:commentRss>./../2022/01/04/vector/feed/index.html</wfw:commentRss>
 			<slash:comments>0</slash:comments>
@@ -920,25 +1191,6 @@ end BubbleSort
 										<content:encoded><![CDATA[]]></content:encoded>
 					
 					<wfw:commentRss>./../2022/01/04/map/feed/index.html</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>List</title>
-		<link>./../2022/01/04/list/index.html</link>
-					<comments>./../2022/01/04/list/index.html#respond</comments>
-		
-		<dc:creator><![CDATA[mdrahat]]></dc:creator>
-		<pubDate>Tue, 04 Jan 2022 09:33:20 +0000</pubDate>
-				<category><![CDATA[Data structure]]></category>
-		<category><![CDATA[STL]]></category>
-		<guid isPermaLink="false">./../index.html?p=88</guid>
-
-					<description><![CDATA[]]></description>
-										<content:encoded><![CDATA[]]></content:encoded>
-					
-					<wfw:commentRss>./../2022/01/04/list/feed/index.html</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

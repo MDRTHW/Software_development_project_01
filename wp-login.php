@@ -5,11 +5,11 @@
 	<title>Log In &lsaquo; Kosai Limited &#8212; WordPress</title>
 	<meta name="robots" content="noindex, nofollow, noarchive">
 <link rel="dns-prefetch" href="//s.w.org">
-<link rel="stylesheet" id="dashicons-css" href="./wp-includes/css/dashicons.min.css?ver=5.8.2" type="text/css" media="all">
-<link rel="stylesheet" id="buttons-css" href="./wp-includes/css/buttons.min.css?ver=5.8.2" type="text/css" media="all">
-<link rel="stylesheet" id="forms-css" href="./wp-admin/css/forms.min.css?ver=5.8.2" type="text/css" media="all">
-<link rel="stylesheet" id="l10n-css" href="./wp-admin/css/l10n.min.css?ver=5.8.2" type="text/css" media="all">
-<link rel="stylesheet" id="login-css" href="./wp-admin/css/login.min.css?ver=5.8.2" type="text/css" media="all">
+<link rel="stylesheet" id="dashicons-css" href="./wp-includes/css/dashicons.min.css?ver=5.8.3" type="text/css" media="all">
+<link rel="stylesheet" id="buttons-css" href="./wp-includes/css/buttons.min.css?ver=5.8.3" type="text/css" media="all">
+<link rel="stylesheet" id="forms-css" href="./wp-admin/css/forms.min.css?ver=5.8.3" type="text/css" media="all">
+<link rel="stylesheet" id="l10n-css" href="./wp-admin/css/l10n.min.css?ver=5.8.3" type="text/css" media="all">
+<link rel="stylesheet" id="login-css" href="./wp-admin/css/login.min.css?ver=5.8.3" type="text/css" media="all">
 	<meta name="referrer" content="strict-origin-when-cross-origin">
 		<meta name="viewport" content="width=device-width">
 	<link rel="icon" href="./wp-content/uploads/2022/01/cropped-cropped-sample-5-1-32x32.jpg" sizes="32x32">
@@ -84,17 +84,17 @@ var pwsL10n = {"unknown":"Password strength unknown","short":"Very weak","bad":"
 	wp.i18n.setLocaleData( localeData, domain );
 } )( "default", { "locale_data": { "messages": { "": {} } } } );
 </script>
-<script type="text/javascript" src="./wp-admin/js/password-strength-meter.min.js?ver=5.8.2" id="password-strength-meter-js"></script>
+<script type="text/javascript" src="./wp-admin/js/password-strength-meter.min.js?ver=5.8.3" id="password-strength-meter-js"></script>
 <script type="text/javascript" src="./wp-includes/js/underscore.min.js?ver=1.13.1" id="underscore-js"></script>
 <script type="text/javascript" id="wp-util-js-extra">
 /*  */
 var _wpUtilSettings = {"ajax":{"url":"\/kosailimited\/wp-admin\/admin-ajax.php"}};
 /*  */
 </script>
-<script type="text/javascript" src="./wp-includes/js/wp-util.min.js?ver=5.8.2" id="wp-util-js"></script>
+<script type="text/javascript" src="./wp-includes/js/wp-util.min.js?ver=5.8.3" id="wp-util-js"></script>
 <script type="text/javascript" id="user-profile-js-extra">
 /*  */
-var userProfileL10n = {"user_id":"0","nonce":"f55ca43bb5"};
+var userProfileL10n = {"user_id":"0","nonce":"d8170fa85a"};
 /*  */
 </script>
 <script type="text/javascript" id="user-profile-js-translations">
@@ -104,7 +104,7 @@ var userProfileL10n = {"user_id":"0","nonce":"f55ca43bb5"};
 	wp.i18n.setLocaleData( localeData, domain );
 } )( "default", { "locale_data": { "messages": { "": {} } } } );
 </script>
-<script type="text/javascript" src="./wp-admin/js/user-profile.min.js?ver=5.8.2" id="user-profile-js"></script>
+<script type="text/javascript" src="./wp-admin/js/user-profile.min.js?ver=5.8.3" id="user-profile-js"></script>
 	<script>
 		/(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1);
 	</script>
